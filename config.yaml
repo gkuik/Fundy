@@ -1,8 +1,10 @@
-name: "Fundy"
-description: "Gestion des finances de la maison"
-version: "0.1.0"
-slug: "fundy"
+name: Fundy
+slug: fundy
+version: 0.1.0
+description: Gestion des finances de la maison
+url: https://github.com/gkuik/fundy
 webui: http://[HOST]:[PORT:8888]
+homeassistant_api: false
 init: false
 ports:
   8888/tcp: 8888
